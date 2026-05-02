@@ -93,5 +93,23 @@ with open("data/simulated/blot_measurements.csv", "w", newline="") as f:
                 normalized = decay + random.gauss(0, 0.025)
                 w.writerow([kinase, mut_load, rep, round(max(0, raw_intensity), 1), round(max(0, normalized), 4)])
 
+# ---------- GNM fluctuation profiles ----------
+# Per-residue mean-squared fluctuations from a Gaussian Network Model
+# Real GNM values are typically 0.1 - 5.0 with peaks at flexible loops
+
+with open("data/simulated/gnm_fluctuations.csv", "w", newline="") as f:
+    w = csv.writer(f)
+    w.writerow(["kinase", "residue_index", "fluctuation"])
+    for kinase in KINASES:
+        length = PROTEIN_LENGTHS[kinase]
+        # Build a realistic profile: low everywhere, peaks at a few loop regions
+        loop_centers = [int(length * frac) for frac in [0.15, 0.45, 0.7, 0.9]]
+        for residue in range(1, length + 1):
+            base = 0.4 + random.gauss(0, 0.1)
+            # Add Gaussian peaks at loop regions
+            for center in loop_centers:
+                base += 2.5 * math.exp(-((residue - center) ** 2) / (2 * 15 ** 2))
+            base = max(0.1, base + random.gauss(0, 0.15))
+            w.writerow([kinase, residue, round(base, 4)])
 
 print("Simulated data written to data/simulated/")

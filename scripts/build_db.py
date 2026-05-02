@@ -83,6 +83,14 @@ CREATE TABLE blot_measurement (
     normalized_intensity  REAL,
     FOREIGN KEY (kinase_id) REFERENCES kinase(id)
 );
+
+CREATE TABLE gnm_fluctuation (
+    id              INTEGER PRIMARY KEY,
+    kinase_id       INTEGER NOT NULL,
+    residue_index   INTEGER NOT NULL,
+    fluctuation     REAL,
+    FOREIGN KEY (kinase_id) REFERENCES kinase(id)
+);
 """)
 
 
@@ -204,6 +212,17 @@ load_csv(
     )
 )
 
+
+# ---------- GNM fluctuations ----------
+print("Loading GNM fluctuations...")
+load_csv(
+    "data/simulated/gnm_fluctuations.csv",
+    "gnm_fluctuation",
+    ["kinase_id", "residue_index", "fluctuation"],
+    transform=lambda r: (
+        kinase_id[r["kinase"]], int(r["residue_index"]), float(r["fluctuation"])
+    )
+)
 
 # ---------- Done ----------
 conn.commit()
