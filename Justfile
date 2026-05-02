@@ -21,6 +21,10 @@ simulate:
 build-db:
     {{compose}} run --rm builder make build-db
 
+# Run analysis only
+analyze:
+    {{compose}} run --rm builder make analyze
+
 # Generate figures only
 figures:
     {{compose}} run --rm builder make figures

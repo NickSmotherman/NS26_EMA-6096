@@ -6,6 +6,6 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Python deps
-RUN pip install --no-cache-dir numpy matplotlib pandas requests
+RUN pip install --no-cache-dir numpy matplotlib pandas requests scipy
 
 WORKDIR /work
