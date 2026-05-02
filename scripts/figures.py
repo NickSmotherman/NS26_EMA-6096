@@ -168,5 +168,128 @@ plt.close(fig)
 print("  Saved build/figures/preliminary_studies.svg")
 
 
+# ============================================================
+# Figure 5 — Aim 1 pipeline diagram
+# Data sources flowing into KING, then out to predictions
+# ============================================================
+print("Generating Figure 5: Aim 1 pipeline diagram...")
+
+fig, ax = plt.subplots(figsize=(12, 6))
+ax.set_xlim(0, 12); ax.set_ylim(0, 6); ax.axis("off")
+
+def box(x, y, w, h, label, color="#DCE6F1", edge="#2E5FA3"):
+    rect = plt.Rectangle((x, y), w, h, facecolor=color, edgecolor=edge, linewidth=1.5)
+    ax.add_patch(rect)
+    ax.text(x + w/2, y + h/2, label, ha="center", va="center", fontsize=10, wrap=True)
+
+def arrow(x1, y1, x2, y2):
+    ax.annotate("", xy=(x2, y2), xytext=(x1, y1),
+                arrowprops=dict(arrowstyle="->", color="#444", lw=1.5))
+
+# Input sources (left column)
+box(0.2, 4.5, 2.4, 0.8, "iGNM 2.0\nGNM graphs")
+box(0.2, 3.2, 2.4, 0.8, "RCSB PDB\nstructures")
+box(0.2, 1.9, 2.4, 0.8, "MD simulations\n3 replicates")
+box(0.2, 0.6, 2.4, 0.8, "NMR / HDX-MS\nempirical data")
+
+# KING (center)
+box(4.5, 2.3, 3.0, 1.4, "KING\nGraph Neural Network", color="#FFE5B4", edge="#7B3F00")
+
+# Outputs (right column)
+box(9.0, 4.0, 2.7, 0.8, "Predicted NMR S²")
+box(9.0, 2.6, 2.7, 0.8, "Predicted HDX uptake")
+box(9.0, 1.2, 2.7, 0.8, "Predicted smFRET")
+
+# Arrows in
+for y_src in [4.9, 3.6, 2.3, 1.0]:
+    arrow(2.6, y_src, 4.5, 3.0)
+# Arrows out
+for y_dst in [4.4, 3.0, 1.6]:
+    arrow(7.5, 3.0, 9.0, y_dst)
+
+ax.set_title("Aim 1 Pipeline: Multi-source structural data \u2192 KING \u2192 conformational predictions", fontsize=12)
+fig.tight_layout()
+fig.savefig("build/figures/aim1_pipeline.svg")
+plt.close(fig)
+print("  Saved build/figures/aim1_pipeline.svg")
+
+
+# ============================================================
+# Figure 6 — Aim 2 flow chart
+# kinase gene -> mutated gene -> HEK293 transfection -> culture -> western blot
+# ============================================================
+print("Generating Figure 6: Aim 2 flow chart...")
+
+fig, ax = plt.subplots(figsize=(13, 3))
+ax.set_xlim(0, 13); ax.set_ylim(0, 3); ax.axis("off")
+
+steps = [
+    (0.2,  "Wild-type\nkinase gene"),
+    (2.5,  "Error-prone\nPCR\n(graded mutations)"),
+    (5.0,  "T-vector\ncloning"),
+    (7.5,  "HEK293\ntransfection"),
+    (10.0, "3-passage\nculture"),
+]
+for x, label in steps:
+    box(x, 1.0, 2.0, 1.2, label)
+
+# Final box (the readout)
+box(12.2, 1.0, 2.5, 1.2, "Western blot\nphospho-readout", color="#D4F0DD", edge="#0F6E56")
+ax.set_xlim(0, 14.7)
+
+# Arrows between every adjacent pair
+xs = [s[0] for s in steps] + [12.2]
+for x1, x2 in zip(xs, xs[1:]):
+    arrow(x1 + 2.0, 1.6, x2, 1.6)
+
+ax.set_title("Aim 2 Workflow: Wild-type gene \u2192 mutated variant \u2192 transfection \u2192 phosphorylation readout", fontsize=12)
+fig.tight_layout()
+fig.savefig("build/figures/aim2_flowchart.svg")
+plt.close(fig)
+print("  Saved build/figures/aim2_flowchart.svg")
+
+
+# ============================================================
+# Figure 7 — Timeline (Gantt-style)
+# ============================================================
+print("Generating Figure 7: Project timeline...")
+
+fig, ax = plt.subplots(figsize=(12, 5))
+
+# (label, start_month, duration_months, color)
+tasks = [
+    ("Personnel training",                           0,  12, "#888888"),
+    ("Aim 1A: KING development",                     0,   6, "#2E5FA3"),
+    ("Aim 1A: Cross-validation / dropout (if needed)", 6, 4, "#5B82B5"),
+    ("Aim 1B: Empirical NMR/HDX/smFRET acquisition", 4,  10, "#7AAEDB"),
+    ("Aim 1B: KING evaluation on ABL1/PKA/JNK3",    14,   6, "#5B82B5"),
+    ("Aim 2A: Error-prone PCR pipeline",             2,  12, "#C0392B"),
+    ("Aim 2B: Transfection + western blots",         8,  16, "#E07B6E"),
+    ("Analysis, write-up, pub.",                    24,   6, "#0F6E56"),
+]
+
+for i, (label, start, dur, color) in enumerate(tasks):
+    y = len(tasks) - i
+    ax.barh(y, dur, left=start, color=color, edgecolor="black", linewidth=0.6, height=0.7)
+    ax.text(start + dur + 0.3, y, label, ha="left", va="center",
+            fontsize=9, color="black", clip_on=False)
+
+ax.set_xlim(0, 36)
+fig.subplots_adjust(right=0.78, top=0.82)
+ax.set_xticks(range(0, 37, 3))
+ax.set_xlabel("Month")
+ax.set_yticks([])
+ax.set_title("Project Timeline (30\u201336 months)", fontsize=12)
+ax.axvline(30, linestyle="--", color="gray", alpha=0.6)
+ax.text(30, len(tasks) + 1.4, "30-month\nideal completion", ha="center", va="bottom", fontsize=9, color="gray", clip_on=False)
+ax.axvline(36, linestyle="--", color="gray", alpha=0.6)
+ax.text(36, len(tasks) + 1.4, "36-month\nmax", ha="center", va="bottom", fontsize=9, color="gray", clip_on=False)
+ax.grid(axis="x", alpha=0.3)
+
+fig.tight_layout()
+fig.savefig("build/figures/timeline.svg")
+plt.close(fig)
+print("  Saved build/figures/timeline.svg")
+
 conn.close()
 print("All figures generated.")
