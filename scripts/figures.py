@@ -45,9 +45,9 @@ for ax, (kid, name) in zip(axes, kinases):
 axes[0].set_ylabel("KING-predicted S²")
 fig.suptitle("Aim 1: KING predictions vs empirical NMR order parameters", fontsize=13)
 fig.tight_layout()
-fig.savefig("build/figures/aim1_correlation.png", dpi=150)
+fig.savefig("build/figures/aim1_correlation.svg")
 plt.close(fig)
-print("  Saved build/figures/aim1_correlation.png")
+print("  Saved build/figures/aim1_correlation.svg")
 
 
 # =================================================
@@ -87,9 +87,9 @@ ax.legend(title="Kinase", loc="upper right")
 ax.grid(alpha=0.3)
 
 fig.tight_layout()
-fig.savefig("build/figures/aim2_mutation_curve.png", dpi=150)
+fig.savefig("build/figures/aim2_mutation_curve.svg")
 plt.close(fig)
-print("  Saved build/figures/aim2_mutation_curve.png")
+print("  Saved build/figures/aim2_mutation_curve.svg")
 
 
 conn.close()
