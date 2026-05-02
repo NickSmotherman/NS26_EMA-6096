@@ -2,11 +2,35 @@
 import sqlite3
 import csv
 import os
+import hashlib
 
 os.makedirs("build", exist_ok=True)
 DB_PATH = "build/research.db"
+HASH_PATH = "build/research.db.sha256"
 
-# Remove old database if it exists, so we start fresh every build
+# Compute a hash of all input data so we can detect when inputs change
+def compute_input_hash():
+    h = hashlib.sha256()
+    for root, _, files in sorted(os.walk("data")):
+        for fname in sorted(files):
+            path = os.path.join(root, fname)
+            with open(path, "rb") as f:
+                h.update(path.encode())
+                h.update(f.read())
+    return h.hexdigest()
+
+current_hash = compute_input_hash()
+
+# Skip rebuild if database exists and inputs haven't changed
+if os.path.exists(DB_PATH) and os.path.exists(HASH_PATH):
+    with open(HASH_PATH) as f:
+        stored_hash = f.read().strip()
+    if stored_hash == current_hash:
+        print(f"Database is up-to-date (hash matches). Skipping rebuild.")
+        print(f"  {DB_PATH}")
+        exit(0)
+
+print("Inputs changed or database missing - rebuilding...")
 if os.path.exists(DB_PATH):
     os.remove(DB_PATH)
 
@@ -227,4 +251,9 @@ load_csv(
 # ---------- Done ----------
 conn.commit()
 conn.close()
+
+# Save the hash of inputs for next run's idempotency check
+with open(HASH_PATH, "w") as f:
+    f.write(current_hash)
+
 print(f"Database written to {DB_PATH}")
