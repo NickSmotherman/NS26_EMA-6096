@@ -6,6 +6,7 @@ default: all
 
 # Build everything
 all:
+    {{compose}} build
     {{compose}} run --rm builder make all
 
 # Download public data only
