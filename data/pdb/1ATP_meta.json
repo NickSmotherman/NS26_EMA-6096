@@ -1,0 +1,924 @@
+{
+  "audit_author": [
+    {
+      "name": "Zheng, J.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Trafny, E.A.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Knighton, D.R.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Xuong, N.-H.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "name": "Taylor, S.S.",
+      "pdbx_ordinal": 5
+    },
+    {
+      "name": "Teneyck, L.F.",
+      "pdbx_ordinal": 6
+    },
+    {
+      "name": "Sowadski, J.M.",
+      "pdbx_ordinal": 7
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 73.58,
+    "length_b": 76.28,
+    "length_c": 80.58
+  },
+  "citation": [
+    {
+      "country": "DK",
+      "id": "primary",
+      "journal_abbrev": "Acta Crystallogr.,Sect.D",
+      "journal_id_ASTM": "ABCRE6",
+      "journal_id_CSD": "0766",
+      "journal_id_ISSN": "0907-4449",
+      "journal_volume": "49",
+      "page_first": "362",
+      "page_last": "365",
+      "pdbx_database_id_DOI": "10.1107/S0907444993000423",
+      "pdbx_database_id_PubMed": 15299527,
+      "rcsb_authors": [
+        "Zheng, J.",
+        "Trafny, E.A.",
+        "Knighton, D.R.",
+        "Xuong, N.H.",
+        "Taylor, S.S.",
+        "Ten Eyck, L.F.",
+        "Sowadski, J.M."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Acta Crystallogr D Biol Crystallogr",
+      "title": "2.2 A refined crystal structure of the catalytic subunit of cAMP-dependent protein kinase complexed with MnATP and a peptide inhibitor.",
+      "year": 1993
+    },
+    {
+      "id": "1",
+      "journal_abbrev": "To be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Knighton, D.R.",
+        "Bell, S.M.",
+        "Zheng, J.",
+        "Teneyck, L.F.",
+        "Xuong, N.-H.",
+        "Taylor, S.S.",
+        "Sowadski, J.M."
+      ],
+      "rcsb_is_primary": "N",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "2.0 Angstrom Refined Crystal Structure of the Catalytic Subunit of Camp-Dependent Protein Kinase Complexed with a Peptide Inhibitor and Detergent"
+    },
+    {
+      "country": "US",
+      "id": "2",
+      "journal_abbrev": "Biochemistry",
+      "journal_id_ASTM": "BICHAW",
+      "journal_id_CSD": "0033",
+      "journal_id_ISSN": "0006-2960",
+      "journal_volume": "32",
+      "page_first": "2154",
+      "rcsb_authors": [
+        "Zheng, J.",
+        "Knighton, D.R.",
+        "Teneyck, L.F.",
+        "Karlsson, R.",
+        "Xuong, N.-H.",
+        "Taylor, S.S.",
+        "Sowadski, J.M."
+      ],
+      "rcsb_is_primary": "N",
+      "rcsb_journal_abbrev": "Biochemistry",
+      "title": "Crystal Structure of the Catalytic Subunit of cAMP-Dependent Protein Kinase Complexed with Mg/ATP and Peptide Inhibitor",
+      "year": 1993
+    },
+    {
+      "country": "US",
+      "id": "3",
+      "journal_abbrev": "Science",
+      "journal_id_ASTM": "SCIEAS",
+      "journal_id_CSD": "0038",
+      "journal_id_ISSN": "0036-8075",
+      "journal_volume": "253",
+      "page_first": "407",
+      "rcsb_authors": [
+        "Knighton, D.R.",
+        "Zheng, J.",
+        "Teneyck, L.F.",
+        "Xuong, V.A.",
+        "Ashford, N.-H.",
+        "Taylor, S.S.",
+        "Sowadski, J.M."
+      ],
+      "rcsb_is_primary": "N",
+      "rcsb_journal_abbrev": "Science",
+      "title": "Crystal Structure of the Catalytic Subunit of Cyclic Adenosine Monophosphate-Dependent Protein Kinase",
+      "year": 1991
+    },
+    {
+      "country": "US",
+      "id": "4",
+      "journal_abbrev": "Science",
+      "journal_id_ASTM": "SCIEAS",
+      "journal_id_CSD": "0038",
+      "journal_id_ISSN": "0036-8075",
+      "journal_volume": "253",
+      "page_first": "414",
+      "rcsb_authors": [
+        "Knighton, D.R.",
+        "Zheng, J.",
+        "Teneyck, L.F.",
+        "Xuong, N.-H.",
+        "Taylor, S.S.",
+        "Sowadski, J.M."
+      ],
+      "rcsb_is_primary": "N",
+      "rcsb_journal_abbrev": "Science",
+      "title": "Structure of a Peptide Inhibitor Bound to the Catalytic Subunit of Cyclic Adenosine Monophosphate-Dependent Protein Kinase",
+      "year": 1991
+    },
+    {
+      "country": "US",
+      "id": "5",
+      "journal_abbrev": "J.Biol.Chem.",
+      "journal_id_ASTM": "JBCHA3",
+      "journal_id_CSD": "0071",
+      "journal_id_ISSN": "0021-9258",
+      "journal_volume": "264",
+      "page_first": "20940",
+      "rcsb_authors": [
+        "Slice, L.W.",
+        "Taylor, S.S."
+      ],
+      "rcsb_is_primary": "N",
+      "rcsb_journal_abbrev": "J Biological Chem",
+      "title": "Expression of the Catalytic Subunit of C/AMP-Dependent Protein Kinase in Escherichia Coli",
+      "year": 1989
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "1ATP",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb1atp/pdb",
+      "pdbx_database_accession": "pdb_00001atp"
+    },
+    {
+      "database_code": "D_1000171245",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "crystal_id": "1",
+      "id": "1"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "entry": {
+    "id": "1ATP"
+  },
+  "exptl": [
+    {
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.65,
+      "density_percent_sol": 53.51,
+      "id": "1"
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "pdbx_database_status",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "software",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "struct_conn",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "software",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 5
+    },
+    {
+      "category": "chem_comp_atom",
+      "data_content_type": "Structure model",
+      "ordinal": 5,
+      "revision_ordinal": 6
+    },
+    {
+      "category": "chem_comp_bond",
+      "data_content_type": "Structure model",
+      "ordinal": 6,
+      "revision_ordinal": 6
+    },
+    {
+      "category": "database_2",
+      "data_content_type": "Structure model",
+      "ordinal": 7,
+      "revision_ordinal": 6
+    },
+    {
+      "category": "pdbx_entry_details",
+      "data_content_type": "Structure model",
+      "ordinal": 8,
+      "revision_ordinal": 6
+    },
+    {
+      "category": "pdbx_modification_feature",
+      "data_content_type": "Structure model",
+      "ordinal": 9,
+      "revision_ordinal": 6
+    },
+    {
+      "category": "pdbx_struct_conn_angle",
+      "data_content_type": "Structure model",
+      "ordinal": 10,
+      "revision_ordinal": 6
+    },
+    {
+      "category": "struct_conn",
+      "data_content_type": "Structure model",
+      "ordinal": 11,
+      "revision_ordinal": 6
+    },
+    {
+      "category": "struct_conn_type",
+      "data_content_type": "Structure model",
+      "ordinal": 12,
+      "revision_ordinal": 6
+    },
+    {
+      "category": "struct_site",
+      "data_content_type": "Structure model",
+      "ordinal": 13,
+      "revision_ordinal": 6
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 3,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Derived calculations",
+      "ordinal": 4,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Other",
+      "ordinal": 5,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Refinement description",
+      "ordinal": 6,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 7,
+      "revision_ordinal": 5
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Refinement description",
+      "ordinal": 8,
+      "revision_ordinal": 5
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 9,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 10,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Derived calculations",
+      "ordinal": 11,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 12,
+      "revision_ordinal": 6
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "1993-04-15T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2008-03-03T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2011-07-13T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 3,
+      "ordinal": 4,
+      "revision_date": "2019-07-17T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 4,
+      "ordinal": 5,
+      "revision_date": "2019-08-14T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 5,
+      "ordinal": 6,
+      "revision_date": "2024-11-06T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_database_status.process_site",
+      "ordinal": 1,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_software.classification",
+      "ordinal": 2,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.pdbx_leaving_atom_flag",
+      "ordinal": 3,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_software.classification",
+      "ordinal": 4,
+      "revision_ordinal": 5
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_database_2.pdbx_DOI",
+      "ordinal": 5,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_database_2.pdbx_database_accession",
+      "ordinal": 6,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_entry_details.has_protein_modification",
+      "ordinal": 7,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr1_auth_comp_id",
+      "ordinal": 8,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr1_auth_seq_id",
+      "ordinal": 9,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr1_label_asym_id",
+      "ordinal": 10,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr1_label_atom_id",
+      "ordinal": 11,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr1_label_comp_id",
+      "ordinal": 12,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr1_label_seq_id",
+      "ordinal": 13,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr2_auth_seq_id",
+      "ordinal": 14,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr2_label_asym_id",
+      "ordinal": 15,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr3_auth_comp_id",
+      "ordinal": 16,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr3_auth_seq_id",
+      "ordinal": 17,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr3_label_asym_id",
+      "ordinal": 18,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr3_label_atom_id",
+      "ordinal": 19,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr3_label_comp_id",
+      "ordinal": 20,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr3_label_seq_id",
+      "ordinal": 21,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.value",
+      "ordinal": 22,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.conn_type_id",
+      "ordinal": 23,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.id",
+      "ordinal": 24,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.pdbx_dist_value",
+      "ordinal": 25,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.pdbx_leaving_atom_flag",
+      "ordinal": 26,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr1_auth_comp_id",
+      "ordinal": 27,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr1_auth_seq_id",
+      "ordinal": 28,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr1_label_asym_id",
+      "ordinal": 29,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr1_label_atom_id",
+      "ordinal": 30,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr1_label_comp_id",
+      "ordinal": 31,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr1_label_seq_id",
+      "ordinal": 32,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr2_auth_comp_id",
+      "ordinal": 33,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr2_auth_seq_id",
+      "ordinal": 34,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr2_label_asym_id",
+      "ordinal": 35,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr2_label_atom_id",
+      "ordinal": 36,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr2_label_comp_id",
+      "ordinal": 37,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr2_label_seq_id",
+      "ordinal": 38,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn_type.id",
+      "ordinal": 39,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_site.pdbx_auth_asym_id",
+      "ordinal": 40,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_site.pdbx_auth_comp_id",
+      "ordinal": 41,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_site.pdbx_auth_seq_id",
+      "ordinal": 42,
+      "revision_ordinal": 6
+    }
+  ],
+  "pdbx_database_status": {
+    "pdb_format_compatible": "Y",
+    "process_site": "BNL",
+    "recvd_initial_deposition_date": "1993-01-08T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-10T10:53:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1919,
+      "EDS_R": 0.2012,
+      "EDS_res_high": 2.2,
+      "EDS_res_low": 10.0,
+      "Fo_Fc_correlation": 0.934,
+      "I_over_sigma": "1.21(2.15A)",
+      "Padilla_Yeates_L2_mean": 0.306,
+      "Padilla_Yeates_L_mean": 0.475,
+      "Wilson_B_aniso": "[21.774,24.080,22.477,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 22.783,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 126.782,
+      "bulk_solvent_k": 0.343,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.101,
+      "data_completeness": 76.5,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 24564,
+      "number_reflns_R_free": 0,
+      "percent_RSRZ_outliers": 0.28,
+      "percent_free_reflections": 0.0,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 7.39% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "k,h,-l:0.015"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 1.63,
+      "bonds_RMSZ": 1.16,
+      "clashscore": 25.14,
+      "num_H_reduce": 2920,
+      "num_angles_RMSZ": 4016,
+      "num_bonds_RMSZ": 2984,
+      "percent_ramachandran_outliers": 0.86,
+      "percent_rotamer_outliers": 23.23
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "1993-01-08T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "1993-04-15T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 5,
+    "revision_date": "2024-11-06T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "1ATP",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1",
+      "2"
+    ],
+    "pubmed_id": 15299527,
+    "rcsb_id": "1ATP"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 3070,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 356,
+    "deposited_nonpolymer_entity_instance_count": 3,
+    "deposited_polymer_entity_instance_count": 2,
+    "deposited_polymer_monomer_count": 370,
+    "deposited_solvent_atom_count": 103,
+    "deposited_unmodeled_polymer_monomer_count": 14,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 4,
+    "inter_mol_metalic_bond_count": 11,
+    "molecular_weight": 43.5,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "ATP",
+      "MN"
+    ],
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.51,
+    "nonpolymer_molecular_weight_minimum": 0.05,
+    "polymer_composition": "heteromeric protein",
+    "polymer_entity_count": 2,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 2,
+    "polymer_entity_taxonomy_count": 2,
+    "polymer_molecular_weight_maximum": 40.66,
+    "polymer_molecular_weight_minimum": 2.23,
+    "polymer_monomer_count_maximum": 350,
+    "polymer_monomer_count_minimum": 20,
+    "resolution_combined": [
+      2.2
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "TNT",
+      "X-PLOR"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "From refinement resolution cutoff",
+      "value": 2.2
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "DK",
+    "id": "primary",
+    "journal_abbrev": "Acta Crystallogr.,Sect.D",
+    "journal_id_ASTM": "ABCRE6",
+    "journal_id_CSD": "0766",
+    "journal_id_ISSN": "0907-4449",
+    "journal_volume": "49",
+    "page_first": "362",
+    "page_last": "365",
+    "pdbx_database_id_DOI": "10.1107/S0907444993000423",
+    "pdbx_database_id_PubMed": 15299527,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Zheng, J.",
+      "Trafny, E.A.",
+      "Knighton, D.R.",
+      "Xuong, N.H.",
+      "Taylor, S.S.",
+      "Ten Eyck, L.F.",
+      "Sowadski, J.M."
+    ],
+    "rcsb_journal_abbrev": "Acta Crystallogr D Biol Crystallogr",
+    "title": "2.2 A refined crystal structure of the catalytic subunit of cAMP-dependent protein kinase complexed with MnATP and a peptide inhibitor.",
+    "year": 1993
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_work": 0.177,
+      "ls_d_res_high": 2.2,
+      "ls_d_res_low": 10.0,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_sigma_F": 2.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 2.2,
+      "d_res_low": 10.0,
+      "number_atoms_solvent": 103,
+      "number_atoms_total": 3070,
+      "pdbx_number_atoms_ligand": 33,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2934,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.013,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d"
+    },
+    {
+      "dev_ideal": 2.2,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg"
+    }
+  ],
+  "software": [
+    {
+      "classification": "model building",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 1
+    },
+    {
+      "classification": "refinement",
+      "name": "TNT",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "refinement",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "title": "2.2 angstrom refined crystal structure of the catalytic subunit of cAMP-dependent protein kinase complexed with MNATP and a peptide inhibitor"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE(PHOSPHOTRANSFERASE)",
+    "text": "TRANSFERASE(PHOSPHOTRANSFERASE)"
+  },
+  "symmetry": {
+    "Int_Tables_number": 19,
+    "space_group_name_H_M": "P 21 21 21"
+  },
+  "rcsb_id": "1ATP"
+}

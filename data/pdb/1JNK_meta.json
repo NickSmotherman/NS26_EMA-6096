@@ -1,0 +1,781 @@
+{
+  "audit_author": [
+    {
+      "name": "Xie, X.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Su, M.S.-S.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 51.5,
+    "length_b": 71.24,
+    "length_c": 107.6
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Structure",
+      "journal_id_ASTM": "STRUE6",
+      "journal_id_CSD": "2005",
+      "journal_id_ISSN": "0969-2126",
+      "journal_volume": "6",
+      "page_first": "983",
+      "page_last": "991",
+      "pdbx_database_id_DOI": "10.1016/S0969-2126(98)00100-2",
+      "pdbx_database_id_PubMed": 9739089,
+      "rcsb_authors": [
+        "Xie, X.",
+        "Gu, Y.",
+        "Fox, T.",
+        "Coll, J.T.",
+        "Fleming, M.A.",
+        "Markland, W.",
+        "Caron, P.R.",
+        "Wilson, K.P.",
+        "Su, M.S."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Structure",
+      "title": "Crystal structure of JNK3: a kinase implicated in neuronal apoptosis.",
+      "year": 1998
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "1JNK",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb1jnk/pdb",
+      "pdbx_database_accession": "pdb_00001jnk"
+    },
+    {
+      "database_code": "D_1000174350",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 70.0,
+      "crystal_id": "1",
+      "id": "1"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "details": "MSC MIRRORS",
+      "detector": "IMAGE PLATE",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "1997-10-25T00:00:00.000+00:00",
+      "type": "RIGAKU"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "monochromator": "NI FILTER",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_wavelength": "1.5418",
+      "source": "ROTATING ANODE",
+      "type": "RIGAKU RUH2R"
+    }
+  ],
+  "entry": {
+    "id": "1JNK"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.03,
+      "density_percent_sol": 39.45,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "pH": 7.0,
+      "pdbx_details": "pH 7.0"
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "chem_comp_atom",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "chem_comp_bond",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "database_2",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "pdbx_database_status",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "pdbx_struct_conn_angle",
+      "data_content_type": "Structure model",
+      "ordinal": 5,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "struct_conn",
+      "data_content_type": "Structure model",
+      "ordinal": 6,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "struct_site",
+      "data_content_type": "Structure model",
+      "ordinal": 7,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 3,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 4,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Derived calculations",
+      "ordinal": 5,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Other",
+      "ordinal": 6,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "1999-06-08T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2008-03-24T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2011-07-13T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 3,
+      "ordinal": 4,
+      "revision_date": "2024-02-07T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_database_2.pdbx_DOI",
+      "ordinal": 1,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_database_2.pdbx_database_accession",
+      "ordinal": 2,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_database_status.process_site",
+      "ordinal": 3,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr1_auth_comp_id",
+      "ordinal": 4,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr1_auth_seq_id",
+      "ordinal": 5,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr1_label_asym_id",
+      "ordinal": 6,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr1_label_atom_id",
+      "ordinal": 7,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr1_label_comp_id",
+      "ordinal": 8,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr1_label_seq_id",
+      "ordinal": 9,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr2_auth_seq_id",
+      "ordinal": 10,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr2_label_asym_id",
+      "ordinal": 11,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr3_auth_comp_id",
+      "ordinal": 12,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr3_auth_seq_id",
+      "ordinal": 13,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr3_label_asym_id",
+      "ordinal": 14,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr3_label_atom_id",
+      "ordinal": 15,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr3_label_comp_id",
+      "ordinal": 16,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.ptnr3_label_seq_id",
+      "ordinal": 17,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_struct_conn_angle.value",
+      "ordinal": 18,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.pdbx_dist_value",
+      "ordinal": 19,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr1_auth_comp_id",
+      "ordinal": 20,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr1_auth_seq_id",
+      "ordinal": 21,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr1_label_asym_id",
+      "ordinal": 22,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr1_label_atom_id",
+      "ordinal": 23,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr1_label_comp_id",
+      "ordinal": 24,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr1_label_seq_id",
+      "ordinal": 25,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr2_auth_comp_id",
+      "ordinal": 26,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr2_auth_seq_id",
+      "ordinal": 27,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr2_label_asym_id",
+      "ordinal": 28,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr2_label_atom_id",
+      "ordinal": 29,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr2_label_comp_id",
+      "ordinal": 30,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.ptnr2_label_seq_id",
+      "ordinal": 31,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_site.pdbx_auth_asym_id",
+      "ordinal": 32,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_site.pdbx_auth_comp_id",
+      "ordinal": 33,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_site.pdbx_auth_seq_id",
+      "ordinal": 34,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_database_status": {
+    "pdb_format_compatible": "Y",
+    "process_site": "BNL",
+    "recvd_initial_deposition_date": "1998-06-03T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-09T04:16:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 1.07,
+      "bonds_RMSZ": 0.49,
+      "clashscore": 9.19,
+      "num_H_reduce": 2825,
+      "num_angles_RMSZ": 3877,
+      "num_bonds_RMSZ": 2864,
+      "percent_ramachandran_outliers": 1.76,
+      "percent_rotamer_outliers": 5.47
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "1998-06-03T00:00:00.000+00:00",
+    "has_released_experimental_data": "N",
+    "initial_release_date": "1999-06-08T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 3,
+    "revision_date": "2024-02-07T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "1JNK",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 9739089,
+    "rcsb_id": "1JNK"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 3016,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 346,
+    "deposited_nonpolymer_entity_instance_count": 3,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 423,
+    "deposited_solvent_atom_count": 183,
+    "deposited_unmodeled_polymer_monomer_count": 77,
+    "diffrn_radiation_wavelength_maximum": 1.5418,
+    "diffrn_radiation_wavelength_minimum": 1.5418,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 13,
+    "molecular_weight": 49.12,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "ANP",
+      "MG"
+    ],
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.51,
+    "nonpolymer_molecular_weight_minimum": 0.02,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 48.56,
+    "polymer_molecular_weight_minimum": 48.56,
+    "polymer_monomer_count_maximum": 423,
+    "polymer_monomer_count_minimum": 423,
+    "resolution_combined": [
+      2.3
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "DENZO",
+      "SCALEPACK",
+      "X-PLOR"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 2.3
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Structure",
+    "journal_id_ASTM": "STRUE6",
+    "journal_id_CSD": "2005",
+    "journal_id_ISSN": "0969-2126",
+    "journal_volume": "6",
+    "page_first": "983",
+    "page_last": "991",
+    "pdbx_database_id_DOI": "10.1016/S0969-2126(98)00100-2",
+    "pdbx_database_id_PubMed": 9739089,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Xie, X.",
+      "Gu, Y.",
+      "Fox, T.",
+      "Coll, J.T.",
+      "Fleming, M.A.",
+      "Markland, W.",
+      "Caron, P.R.",
+      "Wilson, K.P.",
+      "Su, M.S."
+    ],
+    "rcsb_journal_abbrev": "Structure",
+    "title": "Crystal structure of JNK3: a kinase implicated in neuronal apoptosis.",
+    "year": 1998
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.274,
+      "ls_R_factor_R_work": 0.222,
+      "ls_R_factor_obs": 0.222,
+      "ls_d_res_high": 2.3,
+      "ls_d_res_low": 30.0,
+      "ls_number_reflns_R_free": 15971,
+      "ls_number_reflns_obs": 16068,
+      "ls_percent_reflns_R_free": 10.0,
+      "ls_percent_reflns_obs": 88.3,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_ls_sigma_F": 2.0,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 2.3,
+      "d_res_low": 30.0,
+      "number_atoms_solvent": 183,
+      "number_atoms_total": 3007,
+      "pdbx_number_atoms_ligand": 33,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2791,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.009,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d_prot"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d_prot"
+    },
+    {
+      "dev_ideal": 1.5,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg_prot"
+    },
+    {
+      "dev_ideal": 24.5,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d_prot"
+    },
+    {
+      "dev_ideal": 1.4,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d_prot"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_mcbond_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_mcangle_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_scbond_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_scangle_it"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 2.3,
+      "d_resolution_low": 30.0,
+      "number_obs": 66000,
+      "observed_criterion_sigma_I": 0.0,
+      "pdbx_Rmerge_I_obs": 0.052,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 4.03,
+      "percent_possible_obs": 90.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.165,
+      "d_res_high": 2.3,
+      "pdbx_ordinal": 1,
+      "percent_possible_all": 75.4
+    }
+  ],
+  "software": [
+    {
+      "classification": "model building",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 1,
+      "version": "3.843"
+    },
+    {
+      "classification": "refinement",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 2,
+      "version": "3.843"
+    },
+    {
+      "classification": "data reduction",
+      "name": "DENZO",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "data scaling",
+      "name": "SCALEPACK",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "phasing",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 5,
+      "version": "3.843"
+    }
+  ],
+  "struct": {
+    "title": "THE C-JUN N-TERMINAL KINASE (JNK3S) COMPLEXED WITH MGAMP-PNP"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE",
+    "text": "TRANSFERASE, JNK3 MAP KINASE, SERINE/THREONINE PROTEIN KINASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 19,
+    "space_group_name_H_M": "P 21 21 21"
+  },
+  "rcsb_id": "1JNK"
+}
