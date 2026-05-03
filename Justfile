@@ -25,6 +25,10 @@ build-db:
 analyze:
     {{compose}} run --rm builder make analyze
 
+# Compile the grant PDF only
+grant:
+    {{compose}} run --rm builder make grant
+
 # Generate figures only
 figures:
     {{compose}} run --rm builder make figures
